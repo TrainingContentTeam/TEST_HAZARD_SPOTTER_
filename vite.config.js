@@ -6,5 +6,5 @@ const repoName = 'TEST_HAZARD_SPOTTER_';
 export default defineConfig(({ mode }) => ({
   plugins: [react()],
   //base: mode === 'production' ? `/${repoName}/` : '/'
-  base: `/${repoName}/`
+  base: '/TEST_HAZARD_SPOTTER_/',
 }));
