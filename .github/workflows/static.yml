@@ -41,3 +41,7 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+      - name: Install dependencies
+        run: npm install
+      - name: Build Vite app
+        run: npm run build
